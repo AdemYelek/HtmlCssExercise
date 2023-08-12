@@ -1,0 +1,46 @@
+/* Group Selectors
+
+1-(p)-->Tüm p etiketleri
+
+2-(div p)-->Div içerisindeki tüm p etiketleri
+
+3-(div,p)-->Tüm div ve tüm p etiketleri
+
+4-(p+div)-->p etiketinden sonra gelen div etiketi
+
+*/
+
+/*1-
+
+p {
+    color: rgb(67, 25, 193); tüm p etiketlerinin rengini degistirir.
+}
+
+*/
+
+/*2-
+
+div p{
+    color: chartreuse; 
+}
+
+
+.container{
+
+    color: crimson;
+}
+
+*/
+
+/*3-
+
+div,p{
+
+color: cornflowerblue;
+}
+
+*/
+
+p + div{
+    color: blue;
+}
