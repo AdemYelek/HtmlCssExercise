@@ -41,3 +41,13 @@ a{
     width: 100px;
     margin-bottom: 10px;
 }
+
+input[type="button"]{
+    color: chocolate;
+    background-color: cornflowerblue;
+}
+
+input:hover{
+    color: azure;
+    background-color: blueviolet;
+}
