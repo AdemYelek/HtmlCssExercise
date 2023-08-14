@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        div {
+            width: 150px;
+            height: 150px;
+        }
+
+        #div1 {
+            background-color: blue;
+        }
+
+        /*
+        #div2 {
+            background-color: rgb(229, 115, 57); // baslangıc noktasi olarak yukaridan div1 i
+            position: relative;                  // soldan da sayfa baslangicini alir.
+            top: 50px;
+            left: 50px;
+        }
+        */
+
+        /*
+        #div2 {
+            background-color: rgb(229, 115, 57); // baslangic noktasi olarak sayfanin yukari cizgisini
+            position: absolute;                  // ve yan cizgileri alir.
+            top: 50px;
+            left: 50px;
+        }
+        */
+        #div2 {
+            background-color: rgb(229, 115, 57);
+
+        }
+
+        /*
+        #div3 {
+            background-color: brown; // her zaman ekranin gorunen kisminin sag alt tarafinda kalmaya devam eder
+            position: fixed;
+            bottom: 0;
+            right: 0;
+        }
+        */
+        #div3 {
+            background-color: brown; 
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="div1">Div 1</div>
+    <div id="div2">Div 2</div>
+    <div id="div3">Div 3</div>
+
+</body>
+
+</html>
